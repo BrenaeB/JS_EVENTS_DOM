@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id=direction></p>
+    <p id="onload"></p>
+    <button onClick="greet('Helo Cohort 2025')" id="clickMe">Click me for something to happen</button>
+    <button id="randomColorBtn">Click me next!</button>
+    <button onclick="toggleMode(this)">Dark Mode</button>
+    <script src="script.js"></script>
+
+    <style>  
+            body {  
+                transition: background-color 0.3s, color 0.3s;  
+                background-color: white; /* Light mode background */  
+                color: black; /* Light mode text color */  
+                font-family: Arial, sans-serif;  
+                text-align: center;  
+                padding: 50px;  
+            }  
+            .dark-mode {  
+                background-color: black; /* Dark mode background */  
+                color: white; /* Dark mode text color */  
+            }  
+            button {  
+                padding: 10px 20px;  
+                font-size: 16px;  
+                cursor: pointer;  
+                border: none;  
+                border-radius: 5px;  
+                transition: background-color 0.3s;  
+            }  
+            button:hover {  
+                background-color: #ddd;  
+            }  
+        </style>  
+</body>
+</html>
